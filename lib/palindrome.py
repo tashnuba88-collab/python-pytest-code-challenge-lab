@@ -24,4 +24,3 @@ def longest_palindromic_substring(s):
             start = i - (max_len - 1) // 2
 
     return s[start:start + max_len]
-
